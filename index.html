@@ -12,12 +12,10 @@ ul {
 	overflow: hidden;
     font-family: Calibri;  
     font-size:3em; 
-
-	}
+}
 li {
     float: left;
 }
-
 a {
     display: block;
 	color: white;
@@ -28,34 +26,32 @@ a {
 	}
 a:hover {
 	background-color: grey;
-
-}
- 
 }
 h1 {
     z-index: 1;
-	}
-
-tr td img{
+}
+#profile {
+	float: right;
 	width: auto;
 	height: auto;
-	margin: auto;
-
-	}
+	margin-top: 20px;
+	margin-right: 300px;
+	margin-bottom: 20px;
+}
+.intro {
+	font-family: Calibri;
+	font-size: 1.5em;
+	margin-left: 250px
+}
 #footer {
     width: 1500px;
     height: 100px;
     border: 1px solid black;
     background-color: grey;
-	clear: both;
-	position: relative;
 	margin: auto;
-	}
-	
-#photo{
-	margin-top: 0px;
+	bottom: 0;
+	overflow: auto;
 }
-
 	</style>
 	
 	<head>
@@ -63,26 +59,32 @@ tr td img{
 	</head>
 	<body>
 	    <div align="center">
-	    <h1> <img src="header1.jpg"></h1>
+			<h1> <img src="header1.jpg"></h1>
 	    </div>
 			<div>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="gallery.html">Full Gallery</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
 					<li><a href="links.html">External Links</a></li>
-					
 				</ul>
 			</div>
-	    <div id="photo" align="left">
-			<table>
-			<tbody>
-				<tr>
-					<td><img src="profile.jpg"></td>
-					<td></td>
-				</tr>
+	    <div align="left">	
+			<img id="profile", src="profile.jpg">
 	    </div>
+		<div>
+			<p class="intro"> <strong>Hi, my names is Evaldas,</strong></p>
+			<p class="intro"> I am a senior International Business Administration Student </p>
+			<p class="intro"> at LCC International University. Currently I am working as an</p>
+			<p class="intro"> assistant at Corporate Communications Office at LCC.</p>  
+			<p class="intro"> On my free time, I enjoy taking pictures, and that is why,</p>
+			<p class="intro"> I decided to set up this page to display some of the shots </p>
+			<p class="intro"> I captured trough out my university years. </p>
+		</div>
 	    <div id="footer">
+			<p align="center">
+				©Evaldas Daugintis 2016
+			</p>
 	    </div>
 	</body>
 </html>
